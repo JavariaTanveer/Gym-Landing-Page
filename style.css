@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 80vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    height: 67px;
+}
+.navbar a{
+    list-style: none;
+    margin: 0 12px;
+}
+
+.topleft{
+    width: 50%;
+}
+
+.topright{ 
+    width: 50%;
+}
+
+.section1{
+   max-height: 100vh; 
+   color: #711e15;
+}
+
+.section1 h1{
+    color: #37110d;
+    font-size: 2rem;
+}
+
+.logo{
+    font-size: 1.3rem;
+}
+
+.dumbellimg{
+    width: 289px;
+}
+
+.topright .gymimg{
+    width: 466px;
+}
+
+.section2{
+    padding: 73px;
+}
+
+.section2 h1{
+    font-size: 2.3rem;
+}
+
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+}
+
+.box{
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid rgb(120, 54, 16);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.box h2{
+    font-size: 2rem;
+    padding: 15px 0;
+}
+
+.highlighted{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.box ul{
+    list-style-type: none;
+}
+
+.box ul li{
+   margin: 12px 2px;
+}
+
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 table{
+    width: 100%;
+    margin-bottom: 140px;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.section3 table th{ 
+    width: 23vw; 
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+} 
+
+.section3 table td{   
+    border-bottom: 2px solid black; 
+} 
+ 
+
+.section3 h1{
+    font-size: 2.3rem;
+}
+
+.section3{
+    padding: 73px;
+}
+
+footer{
+    padding: 23px;
+    text-align: center;
+    background-color: #711e15;
+    color: white;
+    width: 100%;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+}
+
+.deal{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 12px 0;
+}
+
+.section4 {
+    padding: 73px;
+  }
+  
+  .section4 h1 {
+    font-size: 2.3rem;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 12px;
+    margin: 12px 0;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .contact-form textarea {
+    resize: vertical;
+  }
+  
+  .contact-form button {
+    background-color:rgb(227 74 56);
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.2rem;
+  }
+  
+  .contact-form button:hover {
+    background-color: #37110d;
+  }
+  
+  /* Media Query to adjust section2 and section3 on smaller screens */
+  @media (max-width: 768px) {
+    .section2,
+    .section3 {
+      padding: 40px;
+    }
+    .section2 p {
+      padding: 0;
+    }
+    .box {
+      margin: 12px 8px;
+    }
+    .section3 table th,
+    .section3 table td {
+      padding: 10px 0;
+    }
+    .navbar a{
+      margin: 0 8px;
+    }
+  }
+  
+  /* Media Query to adjust the logo font size on smaller screens */
+  @media (max-width: 480px) {
+    .logo {
+      font-size: 1.1rem;
+    }
+  }
